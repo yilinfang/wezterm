@@ -1,9 +1,9 @@
 local wezterm = require("wezterm")
 local config = {}
 
-config.front_end = "WebGpu"
-
 config.color_scheme = "iTerm2 Tango Dark"
+
+config.front_end = "WebGpu"
 
 config.font = wezterm.font("VictorMono Nerd Font")
 config.font_size = 14.0
@@ -17,9 +17,9 @@ config.window_frame = {
 config.enable_scroll_bar = true
 
 config.window_padding = {
-	left = 20,
-	right = 30,
-	top = 20,
+	left = 15,
+	right = 20,
+	top = 15,
 	bottom = 0,
 }
 
