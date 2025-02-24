@@ -24,4 +24,18 @@ config.window_padding = {
 	bottom = 0,
 }
 
+config.keys = {
+	{
+		key = "Enter",
+		mods = "SUPER",
+		action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
+	},
+
+	{
+		key = "Enter",
+		mods = "SUPER|SHIFT",
+		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+	},
+}
+
 return config
