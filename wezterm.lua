@@ -64,25 +64,25 @@ config.keys = {
 	{
 		key = "LeftArrow",
 		mods = "SUPER|SHIFT",
-		action = wezterm.action.AdjustPaneSize({ "Left", 1 }),
+		action = wezterm.action.AdjustPaneSize({ "Left", 5 }),
 	},
 
 	{
 		key = "RightArrow",
 		mods = "SUPER|SHIFT",
-		action = wezterm.action.AdjustPaneSize({ "Right", 1 }),
+		action = wezterm.action.AdjustPaneSize({ "Right", 5 }),
 	},
 
 	{
 		key = "UpArrow",
 		mods = "SUPER|SHIFT",
-		action = wezterm.action.AdjustPaneSize({ "Up", 1 }),
+		action = wezterm.action.AdjustPaneSize({ "Up", 5 }),
 	},
 
 	{
 		key = "DownArrow",
 		mods = "SUPER|SHIFT",
-		action = wezterm.action.AdjustPaneSize({ "Down", 1 }),
+		action = wezterm.action.AdjustPaneSize({ "Down", 5 }),
 	},
 }
 
