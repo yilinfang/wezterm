@@ -36,6 +36,54 @@ config.keys = {
 		mods = "SUPER|SHIFT",
 		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
 	},
+
+	{
+		key = "LeftArrow",
+		mods = "SUPER",
+		action = wezterm.action.ActivatePaneDirection("Left"),
+	},
+
+	{
+		key = "RightArrow",
+		mods = "SUPER",
+		action = wezterm.action.ActivatePaneDirection("Right"),
+	},
+
+	{
+		key = "UpArrow",
+		mods = "SUPER",
+		action = wezterm.action.ActivatePaneDirection("Up"),
+	},
+
+	{
+		key = "DownArrow",
+		mods = "SUPER",
+		action = wezterm.action.ActivatePaneDirection("Down"),
+	},
+
+	{
+		key = "LeftArrow",
+		mods = "SUPER|SHIFT",
+		action = wezterm.action.AdjustPaneSize({ "Left", 1 }),
+	},
+
+	{
+		key = "RightArrow",
+		mods = "SUPER|SHIFT",
+		action = wezterm.action.AdjustPaneSize({ "Right", 1 }),
+	},
+
+	{
+		key = "UpArrow",
+		mods = "SUPER|SHIFT",
+		action = wezterm.action.AdjustPaneSize({ "Up", 1 }),
+	},
+
+	{
+		key = "DownArrow",
+		mods = "SUPER|SHIFT",
+		action = wezterm.action.AdjustPaneSize({ "Down", 1 }),
+	},
 }
 
 return config
