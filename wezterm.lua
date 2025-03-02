@@ -7,7 +7,7 @@ config.color_scheme = "iTerm2 Tango Dark"
 
 config.font_size = 14.0
 
-config.initial_rows = 30
+config.initial_rows = 40
 config.initial_cols = 120
 
 config.enable_scroll_bar = true
