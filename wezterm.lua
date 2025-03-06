@@ -5,8 +5,8 @@ config.front_end = "WebGpu"
 
 config.color_scheme = "iTerm2 Tango Dark"
 
-config.font_size = 14.0
-
+config.font_size = 15.0
+config.font = wezterm.font("CaskaydiaMono Nerd Font")
 config.initial_rows = 40
 config.initial_cols = 120
 
