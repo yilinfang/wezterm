@@ -12,7 +12,7 @@ config.font = wezterm.font_with_fallback({
 	"Symbols Nerd Font Mono",
 })
 
-config.initial_rows = 40
+config.initial_rows = 30
 config.initial_cols = 120
 
 config.enable_scroll_bar = true
