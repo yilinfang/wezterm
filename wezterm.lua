@@ -8,8 +8,6 @@ config.color_scheme = "iTerm2 Tango Dark"
 config.font_size = 15.0
 config.font = wezterm.font("VictorMono Nerd Font")
 
-config.default_cursor_style = "SteadyBar"
-
 config.initial_rows = 40
 config.initial_cols = 120
 
